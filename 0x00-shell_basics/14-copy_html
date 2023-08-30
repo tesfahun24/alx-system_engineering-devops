@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.html" -exec cp -v {} ../ \;
+cp -u *.html ..
