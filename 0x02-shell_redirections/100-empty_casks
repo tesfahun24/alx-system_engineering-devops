@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -empty -or -type d -empty | tail -n +2
+find . -empty -type f -o -type d
