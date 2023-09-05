@@ -1,2 +1,2 @@
 #!/bin/bash
-ge 'N-Mn-m' 'A-MN-Za-mn-z' << "$1"
+tr 'A-Za-z' 'A-MN-Za-mn-z'
